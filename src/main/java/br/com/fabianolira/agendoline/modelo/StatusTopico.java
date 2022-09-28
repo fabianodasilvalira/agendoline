@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.modelo;
 
-
 public enum StatusTopico {
 	
 	NAO_RESPONDIDO,

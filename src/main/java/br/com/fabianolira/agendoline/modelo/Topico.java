@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.modelo;
 
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,13 +29,11 @@ public class Topico {
 	private Curso curso;
 	@OneToMany(mappedBy = "topico")
 	private List<Resposta> respostas = new ArrayList<>();
-
-
+	
 	public Topico() {
 	}
 	
 	public Topico(String titulo, String mensagem, Curso curso) {
-		super();
 		this.titulo = titulo;
 		this.mensagem = mensagem;
 		this.curso = curso;

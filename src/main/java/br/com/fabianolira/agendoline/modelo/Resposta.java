@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.modelo;
 
-
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
@@ -15,6 +14,7 @@ public class Resposta {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String mensagem;
+	
 	@ManyToOne
 	private Topico topico;
 	private LocalDateTime dataCriacao = LocalDateTime.now();

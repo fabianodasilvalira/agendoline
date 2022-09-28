@@ -1,4 +1,4 @@
-package br.com.fabianolira.agendoline.controller.repository;
+package br.com.fabianolira.agendoline.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
