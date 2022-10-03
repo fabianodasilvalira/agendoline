@@ -1,8 +1,7 @@
 package br.com.fabianolira.agendoline.controller.dto;
 
+
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.data.domain.Page;
 

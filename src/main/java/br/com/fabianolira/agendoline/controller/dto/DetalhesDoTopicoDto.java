@@ -1,5 +1,6 @@
 package br.com.fabianolira.agendoline.controller.dto;
 
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +9,8 @@ import java.util.stream.Collectors;
 import br.com.fabianolira.agendoline.modelo.StatusTopico;
 import br.com.fabianolira.agendoline.modelo.Topico;
 
-public class DetalhesTopicoDto {
+public class DetalhesDoTopicoDto {
+
 	private Long id;
 	private String titulo;
 	private String mensagem;
@@ -16,8 +18,8 @@ public class DetalhesTopicoDto {
 	private String nomeAutor;
 	private StatusTopico status;
 	private List<RespostaDto> respostas;
-
-	public DetalhesTopicoDto(Topico topico) {
+	
+	public DetalhesDoTopicoDto(Topico topico) {
 		this.id = topico.getId();
 		this.titulo = topico.getTitulo();
 		this.mensagem = topico.getMensagem();
@@ -55,5 +57,5 @@ public class DetalhesTopicoDto {
 	public List<RespostaDto> getRespostas() {
 		return respostas;
 	}
-
+	
 }

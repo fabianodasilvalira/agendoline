@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.config.validacao;
 
-
 public class ErroDeFormularioDto {
 	
 	private String campo;

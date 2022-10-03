@@ -1,5 +1,6 @@
 package br.com.fabianolira.agendoline.controller.dto;
 
+
 import java.time.LocalDateTime;
 
 import br.com.fabianolira.agendoline.modelo.Resposta;
@@ -10,13 +11,12 @@ public class RespostaDto {
 	private String mensagem;
 	private LocalDateTime dataCriacao;
 	private String nomeAutor;
-
+	
 	public RespostaDto(Resposta resposta) {
 		this.id = resposta.getId();
 		this.mensagem = resposta.getMensagem();
 		this.dataCriacao = resposta.getDataCriacao();
 		this.nomeAutor = resposta.getAutor().getNome();
-
 	}
 
 	public Long getId() {
@@ -34,5 +34,5 @@ public class RespostaDto {
 	public String getNomeAutor() {
 		return nomeAutor;
 	}
-
+	
 }
