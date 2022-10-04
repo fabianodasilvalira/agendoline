@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.modelo;
 
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

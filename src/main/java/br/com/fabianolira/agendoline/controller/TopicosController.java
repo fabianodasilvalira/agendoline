@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.controller;
 
-
 import java.net.URI;
 import java.util.Optional;
 

@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.controller.form;
 
-
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 
 public class LoginForm {

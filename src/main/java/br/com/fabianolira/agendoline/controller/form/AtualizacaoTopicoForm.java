@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.controller.form;
 
-
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 

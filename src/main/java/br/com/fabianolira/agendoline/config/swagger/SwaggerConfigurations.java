@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.config.swagger;
 
-
 import java.util.Arrays;
 
 import org.springframework.context.annotation.Bean;
@@ -18,7 +17,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 public class SwaggerConfigurations {
 	
 	@Bean
-	public Docket forumApi() {
+	public Docket agendolineApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("br.com.fabianolira.agendoline"))

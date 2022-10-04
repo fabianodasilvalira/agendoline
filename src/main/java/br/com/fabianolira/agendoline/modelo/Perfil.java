@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.modelo;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

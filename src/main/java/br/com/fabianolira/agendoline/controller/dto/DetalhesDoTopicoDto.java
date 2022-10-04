@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.controller.dto;
 
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

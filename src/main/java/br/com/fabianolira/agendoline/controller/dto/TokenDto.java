@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.controller.dto;
 
-
 public class TokenDto {
 
 	private String token;

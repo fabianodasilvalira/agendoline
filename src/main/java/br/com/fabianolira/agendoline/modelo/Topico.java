@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.modelo;
 
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

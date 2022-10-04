@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.config.validacao;
 
-
 import java.util.ArrayList;
 import java.util.List;
 

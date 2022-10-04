@@ -1,6 +1,5 @@
 package br.com.fabianolira.agendoline.config.security;
 
-
 import java.io.IOException;
 
 import javax.servlet.FilterChain;
