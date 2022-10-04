@@ -21,7 +21,7 @@ public class SwaggerConfigurations {
 	public Docket forumApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("br.com.alura.forum"))
+				.apis(RequestHandlerSelectors.basePackage("br.com.fabianolira.agendoline"))
 				.paths(PathSelectors.ant("/**"))
 				.build()
 				.ignoredParameterTypes(Usuario.class)
